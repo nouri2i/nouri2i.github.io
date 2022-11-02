@@ -3,5 +3,15 @@
    
 }
 .underline{
-    color:  rgb(21,  83, 168)
+    color:  rgb(21,  83, 168);
+}
+body{
+    background:url(./images/header.jfif ) no-repeat;
+}
+.training{
+  display: flex;
+
+}
+#edgewords{
+    border: 1px solid gray;
 }
