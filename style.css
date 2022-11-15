@@ -1,30 +1,230 @@
-#tmap{background-color: ;
-   
-}
+
+ html{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    scroll-behavior: smooth;
+    scroll-padding: 105px;
+   }
+
 .underline{
     color:  rgb(21,  83, 168);
 }
 body{
    /* background:url(./images/header.jfif ) no-repeat; */
  background-color: rgb(21, 83, 168);
-}
-.training{
-  display: flex;
-justify-content: space-around;
-align-items: center;
-border: 1px solid gray;
+ color:white;
+font-family: Helvetica;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
 
 }
-#edgewords{
-    border: 1px solid gray;
+a {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 8px; */
+    /* background-color: #dddddd; */
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+
+
+
 }
-#header{
-    position: relative;
+
+#titleheader{
+margin-top: 2%;
+
 }
+h1 {
+    font-size: 33px;
+    line-height: 33px;
+    font-family: Helvetica;
+    font-weight: 400;
+    /* margin-bottom: 16px; */
+    text-align: center;
+    /* border: 1px solid white; */
+
+}
+
+#container{
+    /* margin-top: 10%; */
+    /* padding-top: 13%; */
+}
+
 #logo{
-    position:absolute;
-    top: 10px;
-        left: 10px;
-        width: 200px;
-        height: 100px;
+    position: absolute;
+    top:0px;
+    left:70px;
+/*   */
+        /* left: 10px; */
+        width: 6.5%;
+       
+      
+        /* margin: 0 0;
+        top:0; */
+
+}
+.card>p{
+    padding: 5px 25px;
+}
+.card{
+    border: 1px solid white;
+    border-radius: 9px;
+   
+    /* border-radius: 5px;
+     padding: 1px 5px 5px 5px;
+    margin: 1px 5px 5px 5px; */
+    /* background :greenyellow; */
+    width: 30%;
+    height: 30%;
+    font-size:x-large;
+}
+img{
+    width: 100%;
+}
+
+/* #cypress{
+    display: flex;
+    flex-direction: column;
+} */
+  header {
+    /* position:fixed; */
+    background: rgb(21, 83, 168);
+    
+    display: block; 
+    /* background: #57D5A9; */
+    /* text-align: center;*/
+    height: 5vh;
+   /* border: 1px solid white; */
+    width: 100%;
+    /* max-height: 50%; */
+    /* padding-bottom: 50%;  */
+    /* // margin: 2%; */
+    /* margin-bottom: 2%; */
+    /* background-color: beige; */
+    /* border: 1px solid white; */
+    
+  }
+#header>h1 {
+    display: flex;
+    flex-direction: column;
+    top:0;
+    position: relative;
+    text-align: center;
+    color: #57d5a9;
+    
+    /* padding-bottom: 20%; */
+    /* padding: 1% 0% 0% 28%;
+    margin: 0; */
+
+}
+nav{
+   
+    /* display: flex; */
+    /* top:9%; */
+    align-items: center;
+    /* justify-content:space-between ;*/
+    /* position: fixed; */
+    /* background-color: rgb(21, 83, 168); */
+    background-color: black;
+    width: 100%;
+   /* height: 200%; */
+    /* padding-top: 1%;*/
+   
+    /* border: 1px solid white; */
+    
+
+
+}
+.topnav > a{
+color: white;
+text-decoration: none;
+/* border: 1px solid white; */
+border-radius: 5px;
+padding: 1px 5px 5px 5px;
+/* margin:1px 5px 5px 5px; */
+}
+a:hover {
+background-color: #57D5A9;
+    border-color: #57d5a9;
+    text-decoration:underline;
+   
+}
+
+.topic{
+   
+    margin: 1% 5%;
+    border-radius: 5px;
+    border: 5px solid #57D5A9;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#tr {
+    margin-top: 7%;
+}
+.feedbacks{
+ 
+    display: flex;
+    flex-wrap: wrap;
+}
+.feedbacks >.card{
+    margin:2% auto ;
+    width: 35%;
+    height: 50%;
+
+}
+ul{
+    list-style-type: none;
+}
+li {
+    float: left;
+    text-decoration: none;
+}
+
+
+.title_header{
+    text-decoration: underline;
+    /* text-align: center;
+    border-bottom:5px solid #57D5A9; */
+   /* // width: 25vw; */
+   padding-bottom: 2%;
+
+}
+.training {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 5px solid gray; */
+
+}
+.right_quot{
+    /* border: 1px solid white;
+    padding-bottom: 50%; */
+}
+
+#cypress_img>img{
+    /* width:10%;  */
+    padding: 2% 2%;
+    /* border: 5px solid gray; */
+    border-radius: 5px;
+    
+}
+#cypress_img{
+    padding: 2% 2%;
+    width: 45%;
+    display: flex; 
+}
+.commonFrame{
+    padding: 2% 10%;
+}
+#tempImg{
+    width: 50%;
 }
