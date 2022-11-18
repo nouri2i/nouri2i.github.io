@@ -249,13 +249,14 @@ li {
   
         width: 100%;
         padding: auto;
-        /* display: flex; */
+       
 
 }
 #bddImg >img{
     padding: 5% 5%;
 }
 footer{
+
  padding: 0.5% 2%;
 background-color: rgb(0, 0, 0, 0.7);
 display: flex;
