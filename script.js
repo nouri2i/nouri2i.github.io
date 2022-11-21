@@ -22,5 +22,7 @@ currStickyPos = stickyElem.getBoundingClientRect().top + window.pageYOffset;
             stickyElem.style.top = "initial";
         }
     }
-
+function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}
 // // 2i colors : 21, 83, 168
