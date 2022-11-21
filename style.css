@@ -263,6 +263,7 @@ background-color: rgb(0, 0, 0, 0.7);
 display: flex;
 align-items: center;
 justify-content:space-around;
+color: gray;
 }
 footer>h4{
     font-weight: 250;
