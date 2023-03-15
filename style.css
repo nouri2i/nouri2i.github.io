@@ -256,6 +256,11 @@ li {
 #bddImg >img{
     padding: 5% 5%;
 }
+#githubLink{
+    border: none;
+    text-decoration: none;
+    
+}
 footer{
 
  padding: 0.5% 2%;
