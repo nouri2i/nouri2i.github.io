@@ -151,7 +151,7 @@ border-radius: 5px;
 padding: 1px 5px 5px 5px;
 /* margin:1px 5px 5px 5px; */
 }
-a:hover {
+ul>li>a:hover {
 background-color: #57D5A9;
     border-color: #57d5a9;
     text-decoration:underline;
