@@ -221,6 +221,16 @@ li {
 #cypress{
   /* padding: 5% 5%; */
 }
+
+#lunchnlearn{
+    border: 2px dashed white;
+   
+}
+#lunchandlearn{
+ 
+    /* background-color:#0c4ca0; */
+    
+}
 #cypress_img{
      padding: 2% 2%;
     width: 80%;
@@ -259,7 +269,17 @@ li {
 #githubLink{
     border: none;
     text-decoration: none;
+    font-size: larger;
+    padding-left: 40%;
+    color:#57d5a9; 
     
+}
+#pointer{
+    padding-right: 1%;
+}
+#githublogo{
+    padding-left: 2%;
+
 }
 footer{
 
