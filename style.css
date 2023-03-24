@@ -143,12 +143,15 @@ nav{
 
 
 }
+#handover{
+    padding-left: 40%;
+}
 .topnav > a{
 color: white;
 text-decoration: none;
 /* border: 1px solid white; */
 border-radius: 5px;
-padding: 1px 5px 5px 5px;
+padding: 1px 1px 1px 1px;
 /* margin:1px 5px 5px 5px; */
 }
 ul>li>a:hover {
@@ -167,7 +170,7 @@ background-color: #57D5A9;
     margin-bottom: 5%;
 }
 #tr {
-    margin-top: 7%;
+    margin-top: 10%;
 }
 .feedbacks{
  
