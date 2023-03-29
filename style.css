@@ -270,10 +270,11 @@ li {
     padding: 5% 5%;
 }
 .githubLink{
+    margin-bottom: 30%;
+    text-align: center;
     border: none;
     text-decoration: none;
     font-size: larger;
-    padding-left: 30%;
     color:#57d5a9; 
     
 }
