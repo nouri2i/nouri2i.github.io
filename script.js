@@ -1,4 +1,8 @@
+import countapi from 'countapi-js';
 
+countapi.visits().then((result) => {
+    console.log(result.value);
+});
 
 let stickyElem = document.querySelector("#navbar");
      
@@ -23,6 +27,8 @@ currStickyPos = stickyElem.getBoundingClientRect().top + window.pageYOffset;
         }
     }
 function websiteVisits(response) {
+    console.log("testing");
     document.querySelector("#visits").textContent = response.value;
+    console.log(response.value);
 }
 // // 2i colors : 21, 83, 168
