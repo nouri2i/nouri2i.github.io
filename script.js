@@ -1,8 +1,8 @@
-import countapi from 'countapi-js';
+// import countapi from 'countapi-js';
 
-countapi.visits().then((result) => {
-    console.log(result.value);
-});
+// countapi.visits().then((result) => {
+//     console.log(result.value);
+// });
 
 let stickyElem = document.querySelector("#navbar");
      
