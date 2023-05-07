@@ -32,3 +32,10 @@ function websiteVisits(response) {
     console.log(response.value);
 }
 // // 2i colors : 21, 83, 168
+
+const paragraph = document.querySelector('.truncate');
+
+paragraph.addEventListener('click', () => {
+  paragraph.classList.toggle('expandable');
+  
+});

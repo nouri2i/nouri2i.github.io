@@ -358,3 +358,15 @@ span[title]:hover:after {
     color: #fff;
     padding: 5px;
   }
+
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .expandable {
+    white-space: normal;
+  }
+  
+  
