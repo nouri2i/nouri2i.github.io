@@ -368,5 +368,10 @@ span[title]:hover:after {
   .expandable {
     white-space: normal;
   }
+
+  .videolink{
+    text-decoration: none;
+    color: white;
+  }
   
   
